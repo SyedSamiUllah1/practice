@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("background.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: 1920px 721px;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.navbar h1 {
+    color: orangered;
+}
+
+.navbar ul {
+    display: flex;
+    margin-left: 20px;
+}
+
+.navbar ul li {
+    margin: 15px 40px 0 50px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: orangered;
+    transition: 0.6s;
+}
+
+.navbar form {
+    border-radius: 5px;
+    margin: 15px 40px 0 50px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar form input {
+    border: 1px solid orangered;
+    /* border-color: orangered; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 8px 25px 8px 25px;
+    margin-right: 0;
+    background: transparent;
+    color: white;
+}
+
+.navbar form input:focus {
+    outline: none;
+}
+
+.navbar form button {
+    /* border-radius: 5px; */
+    margin-left: 0;
+    background-color: orangered;
+    padding: 8px 25px 8px 25px;
+    color: white;
+    border-top-right-radius: 5px;
+    border: none;
+    border-bottom-right-radius: 5px;
+}
+
+/* Home Section */
+#hs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#rs h1 {
+    color: white;
+    margin-top: 200px;
+    width: 420px;
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+#rs p {
+    color: white;
+    width: 700px;
+    margin: 20px 0 20px 20px;
+    font-size: 18px;
+}
+
+#rs button {
+    background-color: orangered;
+    padding: 12px 37px 12px 37px;
+    color: white;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#ls {
+    /* background-color: black;
+    opacity: 0.6; */
+    margin: 150px 20px 0px 0px;
+    position: relative;
+    width: 350px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#ls::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+    top: 0px;
+    left: 0px;
+}
+
+#ls form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ls h1 {
+    background-color: white;
+    color: orangered;
+    border-radius: 6px;
+    text-align: center;
+    width: 290px;
+    margin-bottom: 10px;
+}
+
+#ls input {
+    border: none;
+    border-bottom: 2px solid orangered;
+    outline: none;
+    margin-top: 2px;
+    height: 40px;
+    width: 300px;
+    font-size: 18px;
+    background: transparent;
+    color: white;
+}
+
+#ls input:focus {
+    border-bottom: 2px solid rgb(255, 184, 54);
+    outline: none;
+}
+#ls button{
+    background-color: orangered;
+    margin-top: 30px;
+    border: none;
+    height: 40px;
+    width: 200px;
+    color: white;
+    border-radius: 6px;
+}
+#ls p{
+    margin-top: 20px;
+    color: white;
+}
+#ls p a{
+    color: orangered;
+}
+.fa{
+    color: white;
+    margin: 3px;
+}
+#sm{
+    display: flex;
+    flex-direction: row;
+}
